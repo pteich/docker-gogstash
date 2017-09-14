@@ -11,4 +11,3 @@ docker run -d \
   -v "/var/run/docker.sock:/var/run/docker.sock" \
   -v "${PWD}/dockerstats.json:/gogstash/config.json:ro" \
   pteich/gogstash:latest
-```  
