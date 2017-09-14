@@ -1,4 +1,4 @@
-FROM alpine:latest
+FROM frolvlad/alpine-glibc:latest
 LABEL maintainer="peter.teich@gmail.com"
 LABEL description="Gogstash - A Logstash like log-forwarder in Go"
 
