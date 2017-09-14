@@ -17,7 +17,7 @@ RUN set -x \
     && chmod +x /usr/local/bin/dumb-init \
     && wget -O /usr/local/bin/gogstash "https://github.com/tsaikd/gogstash/releases/download/${GOGSTASH_VERSION}/gogstash-Linux-x86_64" \
     && chmod +x /usr/local/bin/gogstash \
-    && rm -rf /tmp/*
+    && rm -rf /tmp/* \
     && mkdir /gogstash
     
 WORKDIR /gogstash
